@@ -1,0 +1,9 @@
+// 6)
+<property name="monto">
+	<column name="monto" sql-type="decimal(8,2)" unsigned="true" not-null="true" />
+</property>
+
+// 7)
+<many-to-one name="infraccionNomenclada" class="InfraccionNomenclada">
+	<column="codigoInfraccionNomenclada"></column>
+</many-to-one>
